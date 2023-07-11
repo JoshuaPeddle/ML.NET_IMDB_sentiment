@@ -14,9 +14,7 @@ You can clone the repository and open the solution in your preferred C# IDE. Mak
 ## Example output
 The console application will prompt the user to select a dataset and enter a text for sentiment analysis. The application will then classify the sentiment of the text as positive or negative, and display the result in the console.
 
-![image](https://github.com/JoshuaPeddle/ML.NET_IMDB_sentiment/assets/37007232/6adcc0b4-37bf-40b6-9034-26dafdd23202)
-
-
+![image](https://github.com/JoshuaPeddle/ML.NET_IMDB_sentiment/assets/37007232/40d99163-9379-4de3-bee9-604546a44409)
 
 ## Contributions
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
