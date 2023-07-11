@@ -10,6 +10,7 @@ The project uses three different IMDB datasets which include text reviews and th
 <h3>Binary Text Classification</h3> The project is an example of binary text classification, one of the most common applications of Natural Language Processing (NLP).
 ## How to Run
 You can clone the repository and open the solution in your preferred C# IDE. Make sure you have the .NET Core SDK installed.
+![image](https://github.com/JoshuaPeddle/ML.NET_IMDB_sentiment/assets/37007232/6e9ec3bd-6de3-4cd1-8bd8-9770ffb00f65)
 
 ## Example output
 The console application will prompt the user to select a dataset and enter a text for sentiment analysis. The application will then classify the sentiment of the text as positive or negative, and display the result in the console.
