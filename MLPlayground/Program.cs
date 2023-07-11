@@ -34,7 +34,7 @@ var model = pipeline.Fit(trainingData);
 
 var predictions = model.Transform(testData);
 var metrics = mlContext.BinaryClassification.Evaluate(predictions, "Label");
-Console.WriteLine($"Model accuracy on unseen test data: {Math.Round(metrics.Accuracy, 6)*100}%");
+Console.WriteLine($"Model accuracy on unseen test data: {Math.Round(metrics.Accuracy * 100, 3)}%");
 
 
 var predictionEngine = mlContext.Model.CreatePredictionEngine<SentimentIssue, SentimentPrediction>(model);
@@ -51,5 +51,5 @@ while (true)
 
     var prediction = predictionEngine.Predict(new SentimentIssue { Text = inputText });
 
-    Console.WriteLine($"Text: {inputText}\nIs Toxic: {prediction.Prediction}\nProbability: {prediction.Score}");
+    Console.WriteLine($"Is Toxic: {prediction.Prediction}\nProbability: {prediction.Score}");
 }
